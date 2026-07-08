@@ -1,0 +1,15 @@
+{
+  "originHash" : "d6ba72ca0b096e15f089cbbf4771103f96be591750cf5ab8fd768d3d64309cca",
+  "pins" : [
+    {
+      "identity" : "swift-embedded-arch",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lancelotbronner/swift-embedded-arch.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7069a0a2234c46f78b0f32706caa1fe06539668e"
+      }
+    }
+  ],
+  "version" : 3
+}
