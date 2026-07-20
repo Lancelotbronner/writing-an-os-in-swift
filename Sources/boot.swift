@@ -12,7 +12,6 @@ func _start() -> Never {
 	hang()
 }
 
-@c @inline(never)
 func kmain() {
 	uart("Hello, world!\n")
 }
