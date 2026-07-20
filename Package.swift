@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
 	name: "Writing an OS in Swift",
+	platforms: [
+		.macOS(.v14),
+	],
 	dependencies: [
 		.package(url: "https://github.com/Lancelotbronner/swift-embedded-arch.git", branch: "main"),
 	],
