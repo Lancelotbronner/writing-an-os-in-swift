@@ -15,3 +15,6 @@ I've created a `swift-embedded-arch` companion project to compensate for the lac
 Using it, I can create this minimal kernel fully in Swift.
 - The `_start` function sets up the stack and jumps into Swift.
 - The `kmain` function prints `Hello, world!\n` via UART.
+## How to build
+```bash
+swift build -c release --triple aarch64-none-none-elf --toolset toolset.json --build-system native
