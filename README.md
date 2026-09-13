@@ -7,6 +7,12 @@ A minimal aarch64 Embedded Swift kernel.
 My goal is to create a simple and modern starting template with minimal friction.
 
 I want to use this as a starting point for a series of blog posts on OS development with Swift.
+## Roadmap
+1. Enable the MMU
+2. Timers
+3. Allocators
+4. Integrate Swift concurrency
+5. Device tree?
 
 ## What I got so far
 
